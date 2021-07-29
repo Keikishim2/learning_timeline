@@ -5,7 +5,7 @@
 body{
 	margin:0;
 	font-family: 'Roboto Condensed', sans-serif;
-    background-image: url('https://m.media-amazon.com/images/M/MV5BZTg2Zjg0MWUtYzkwMC00YWY2LTkwZDgtMWFmMTQxNTM1MzE5XkEyXkFqcGdeQXVyMTAxNTY1Nzg1._V1_.jpg');
+    background-image: url('https://64.media.tumblr.com/2d0af9c90d1b1107313cc20bda01548a/tumblr_outwxnanpp1u79o2lo1_1280.gifv');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -50,7 +50,8 @@ h1{
 }
 #progress-bar-container li.active:before, #progress-bar-container li:hover:before{
 	border:solid 2px #fff;
-	background: linear-gradient(to right, #E91E63 0%,#fff 100%); 
+	background-image: url("https://i.pinimg.com/originals/b1/9e/71/b19e712c01137a8a979faa8f4992571a.gif");
+	background-size: cover;
 }
 #progress-bar-container li{
 	list-style:none;
@@ -111,7 +112,8 @@ h1{
 	content:" ";
 	width:3%;
 	height:100%;	 
-    background: linear-gradient(259deg, rgba(173,0,176,1) 0%, rgba(255,135,0,1) 100%);
+    background-image: url("https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif");
+	background-size: cover;
 	position:absolute;
 	z-index:2;
 	border-radius:50px;
@@ -120,8 +122,10 @@ h1{
 #progress-content-section{
 	width:90%;
 	margin: auto;
-	background: skyblue;
+	background: gold;
 	border-radius: 4px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;;
 }
 #progress-content-section .section-content{
 	padding:30px 40px;
@@ -147,6 +151,10 @@ h1{
 }
 #progress-content-section .section-content.active{
 	display:block;
+}
+img{
+	height: 100px;
+	width: 80px;
 }
 @keyframes FadeInUp{
 	0% {

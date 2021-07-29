@@ -3,6 +3,9 @@
 <head>
     <title>Kei - Learning Timeline</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     <h1>Kei Kishimoto - Learning Timeline</h1>
@@ -18,7 +21,9 @@
         </ul>
         
         <div id="line">
-            <div id="line-progress"></div>
+            <div id="line-progress">
+                <img src="https://i.redd.it/d235l7n11fg61.gif" alt="honkai">
+            </div>
         </div>
     </div>
     
@@ -51,36 +56,4 @@
     </div>
     </div>
 </body>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script>
-$(".step").click( function() {
-	$(this).addClass("active").prevAll().addClass("active");
-	$(this).nextAll().removeClass("active");
-});
-    $(".step01").click( function() {
-    $("#line-progress").css("width", "3%");
-    $(".discovery").addClass("active").siblings().removeClass("active");
-    });
-
-    $(".step02").click( function() {
-    $("#line-progress").css("width", "25%");
-    $(".strategy").addClass("active").siblings().removeClass("active");
-    });
-
-    $(".step03").click( function() {
-    $("#line-progress").css("width", "50%");
-    $(".creative").addClass("active").siblings().removeClass("active");
-    });
-
-    $(".step04").click( function() {
-    $("#line-progress").css("width", "75%");
-    $(".production").addClass("active").siblings().removeClass("active");
-    });
-
-    $(".step05").click( function() {
-	$("#line-progress").css("width", "100%");
-	$(".analysis").addClass("active").siblings().removeClass("active");
-});
-</script>
 </html>
